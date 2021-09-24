@@ -80,6 +80,7 @@
 
 #statistics {
     background-color: var(--section-1);
+    padding: 20px 0px;
 }
 
 .details {
@@ -119,7 +120,8 @@
 
 .about-contents {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
 }
 
 .about-picture img {
@@ -127,4 +129,79 @@
     height: 600px;
 }
 
+.about-text .span-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--main);
+}
+
+.about-text h2 {
+    font-size: 34px;    
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.about-text p {
+    color: #999999;
+    margin: 20px 0px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.about-text .span-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-text .span-content{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--main);
+    width: 77%;
+    line-height: 26px;
+}
+
+.about-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0px;
+    gap: 70px;
+}
+
+.about-icons i {
+    border: 1px;
+    background-color: var(--main);
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+.about-icon {
+    border-left: 2px solid var(--main);
+    padding-left: 15px;
+}
+
+.about-icons span {
+    etter-spacing: 2px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
 /* about section end */
+
+/* skills section start */
+
+#skills{
+    background-color: #f8f9fa;
+    height: 600px;
+}
+
+.skills-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--main);
+    letter-spacing: 3px;
+}
+
+
+
+/* skills section end */
