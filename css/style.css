@@ -2,22 +2,15 @@
 
 #header {
     background-image: url(../img/header-slider-1.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
 }
 
 .name-logo img {
     width: 205px;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-}
-
-.menu ul {
-    list-style-type: none;
-    display: flex;
+    padding-top: 7px;
 }
 
 .menu li {
@@ -25,7 +18,6 @@
 }
 
 .menu a {
-    text-decoration: none;
     font-size: 14px;
 /*     padding-top: .7rem;
     padding-bottom: .7rem;
@@ -37,4 +29,102 @@
     text-transform: uppercase;
 }
 
+.navbar-main-content {
+    position: absolute;
+    top: 29%;
+    left: 12%;
+}
+
+.navbar-main-content span {
+    color: var(--main);
+    font-size: 35px;
+}
+
+.navbar-main-content h1 {
+    font-size: 55px;
+    color: var(--black);
+    line-height: 1.2;
+    padding: 10px 0px;
+}
+
+.navbar-main-content .hire {
+    background-color: var(--main);
+    border: 1px solid var(--main);
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .375rem .75rem;
+}
+
+.navbar-main-content .download {
+    background-color: transparent;
+    border: 1px solid var(--main);
+    border-radius: 5px;
+    color: rgb(75, 67, 67);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .375rem .75rem;
+}
+
+.navbar-main-content .download:hover {
+    background-color: var(--main);
+    color: var(--white);
+}
+
 /* header section end */
+
+/* statistics section start */
+
+#statistics {
+    background-color: var(--section-1);
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding: 50px 0px;
+}
+
+.detail-content {
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.detail-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.detail-content span {
+    font-weight: 600;
+    color: var(--main);
+    text-transform: uppercase;
+}
+
+.icon i {
+    border: 1px;
+    background-color: var(--main);
+    border-radius: 50%;
+    padding: 23px 26px;
+    color: white;
+}
+
+/* statistics section end */
+
+/* about section start */
+
+.about-contents {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.about-picture img {
+    background-size: cover;
+    height: 600px;
+}
+
+/* about section end */
