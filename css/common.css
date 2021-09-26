@@ -58,7 +58,32 @@
     --main: #b1b493;
     --black: #000;
     --white: #fff;
-    --dark-white: whitesmoke 
+    --dark-white: whitesmoke;
     --section-1: #999;
+    --color-1: #f8f9fa;
+    --section-2: #b1b493;
+    --footer: #232931;
 }
 
+.section-title-span {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--main);
+    letter-spacing: 3px;
+}
+
+.section-title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+.section-title-p {
+    color: var(--section-1);
+    font-size: 16px;
+}
+
+.padding-bottom {
+    padding-bottom: 15px;
+}
