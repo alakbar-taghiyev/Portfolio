@@ -1,10 +1,10 @@
 /* header section start */
 
 #header {
-    background-image: url(../img/header-slider-1.jpg);
+    background-image: url(../img/header-slider.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 800px;
     position: relative;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .menu li {
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .menu a {
@@ -30,7 +30,7 @@
 
 .navbar-main-content {
     position: absolute;
-    top: 29%;
+    top: 31%;
     left: 12%;
 }
 
@@ -87,7 +87,7 @@ polygon {
 /* statistics section start */
 
 #statistics {
-    background-color: var(--color-1);
+    background-color: var(--section-1);
     padding: 20px 0px;
 }
 
@@ -126,6 +126,10 @@ polygon {
 
 /* about section start */
 
+#about {
+    padding: 80px 0px;
+}
+
 .about-contents {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -139,7 +143,7 @@ polygon {
 }
 
 .about-text .span-title {
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 700;
     color: var(--main);
 }
@@ -151,10 +155,11 @@ polygon {
 }
 
 .about-text p {
-    color: #999999;
+    color: var(--light-black);
     margin: 20px 0px;
     font-size: 21px;
     letter-spacing: 1px;
+    padding-right: 20px;
 }
 
 .about-text .span-heading {
@@ -174,7 +179,7 @@ polygon {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 20px 0px;
-    gap: 70px;
+    gap: 50px;
 }
 
 .about-icons i {
@@ -200,7 +205,7 @@ polygon {
 /* skills section start */
 
 #skills{
-    background-color: #f8f9fa;
+    background-color: var(--color-1);
     height: 830px;
 }
 

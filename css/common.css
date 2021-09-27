@@ -57,6 +57,7 @@
 :root {
     --main: #b1b493;
     --black: #000;
+    --light-black: rgb(59, 56, 56);
     --white: #fff;
     --dark-white: whitesmoke;
     --section-1: #999;
