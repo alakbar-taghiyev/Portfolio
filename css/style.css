@@ -19,14 +19,13 @@
 
 .menu a {
     font-size: 14px;
-/*     padding-top: .7rem;
-    padding-bottom: .7rem;
-    padding-left: 20px;
-    padding-right: 20px; */
     color: #000000;
     font-weight: 600;
-   /*  color: #b1b493; */
     text-transform: uppercase;
+}
+
+.menu li:hover a {
+    opacity: 0.5;
 }
 
 .navbar-main-content {
@@ -72,6 +71,15 @@
 .navbar-main-content .download:hover {
     background-color: var(--main);
     color: var(--white);
+}
+
+svg {
+    position: absolute;
+    bottom: 0px;
+}
+
+polygon {
+    fill: var(--white);
 }
 
 /* header section end */
@@ -580,10 +588,69 @@
 .footer-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
+    padding-bottom: 20px;
+} 
 
 .footer-item {
-    
+    color: var(--section-1);
+}
+
+.footer-item h2 {
+    color: var(--white);
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer-item p {
+    padding-bottom: 25px;
+    color: var(--section-1);
+    line-height: 1.5;
+    padding-right: 45px;
+    font-size: 18px;
+}
+
+.footer-item button {
+    background: var(--main);
+    border: 1px solid var(--main);
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-item button a {
+    color: var(--white);
+}
+
+.footer-item a {
+    color: var(--section-1);
+}
+
+.footer-item i {
+    margin-right: 10px;
+}
+
+.footer-item li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.social-icons {
+    padding-top: 15px;
+}
+
+.social-icons i {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 9px 11px;;
+}
+
+
+.copyRight {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 /* footer section end */
