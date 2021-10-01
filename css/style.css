@@ -357,7 +357,7 @@ polygon {
     font-size: 14px;
     font-weight: 500;
     padding: 15px;
-    width: 15%;
+    width: 16%;
     cursor: pointer;
 }
 
@@ -370,7 +370,8 @@ polygon {
     background-size: cover;
     height: 290px;
     position: absolute;
-    bottom: 0px;
+    bottom: -30px;
+    border-radius: 50%;
 }
 
 .contact-picture {
