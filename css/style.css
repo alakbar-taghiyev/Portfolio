@@ -397,9 +397,48 @@ polygon {
 .projects-item img {
     width: 355px;
     height: 300px;
-    border-radius: 5px;
     background-size: cover;
+    border-radius: 5px;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.projects-item {
+    position: relative;
+    
+}
+
+.projects-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 99%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: all .9s ease;
+}
+
+.projects-overlay h5 {
+    position: absolute;
+    top:  38%;
+    left: 24%;
+    text-align: center;
+    width: 52%;
+    line-height: 27px;
+    color: var(--white);
+}
+
+.projects-overlay p {
+    position: absolute;
+    top: 64%;
+    left: 39%;
+    color: var(--main);
+}
+
+.projects-item:hover .projects-overlay {
+    display: block;
 }
 
 /* project section end */
